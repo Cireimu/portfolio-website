@@ -112,7 +112,7 @@ body {
   overflow-x: hidden;
   width: 100%;
   height: 100%;
-  background-color: rgb(205, 223, 245);
+  background-color: rgb(143, 173, 209);
   @include transition(0.5s);
   .offcanvas & {
     overflow: hidden;
@@ -1503,4 +1503,23 @@ input[type="text"] {
       }
     }
   }
+}
+
+.contact-section {
+  margin-left: 37rem !important;
+  text-align: center;
+  @media screen and (max-width: 500px) {
+    margin-left: 0rem !important;
+  }
+}
+
+.about-me-picture {
+  max-width: 100%;
+  border-radius: 1.5rem;
+}
+
+.work-header {
+  margin: 0 auto;
+  margin-right: 10rem !important;
+  align-content: center;
 }
