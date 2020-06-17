@@ -613,6 +613,7 @@ figure {
   display: table;
   overflow: hidden;
   margin-bottom: 30px;
+  vertical-align: middle;
   @media screen and(max-width: $screen-sm) {
     height: 400px;
   }
@@ -1481,7 +1482,6 @@ input[type="text"] {
   .fh5co-project-sub {
     color: rgba(0, 0, 0, 0.3);
     margin-bottom: 20px;
-    display: block;
     font-weight: 400;
   }
   .fh5co-project-service {
@@ -1522,4 +1522,18 @@ input[type="text"] {
   margin: 0 auto;
   margin-right: 10rem !important;
   align-content: center;
+}
+
+.home-name-header {
+  font-size: 5rem !important;
+}
+
+.git-hub-logo {
+  font-size: 2rem;
+  padding-left: 0.5rem;
+}
+
+.kickstarter-success-logo {
+  width: 3rem;
+  margin-bottom: 0.5rem;
 }
