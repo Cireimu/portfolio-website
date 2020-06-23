@@ -6,7 +6,7 @@ $grid-gutter-width: 40px !default;
 $border-radius-base: 4px !default;
 $padding-base-vertical: 14px !default;
 
-$brand-primary: #66d37e !default;
+$brand-primary: #8fadd1 !default;
 $brand-secondary: #007cb9 !default;
 
 $brand-white: #fff;
@@ -1536,4 +1536,41 @@ input[type="text"] {
 .kickstarter-success-logo {
   width: 3rem;
   margin-bottom: 0.5rem;
+}
+
+.front-page-link {
+  color: black;
+  font-weight: 300;
+  &:hover {
+    color: #8fadd1;
+  }
+}
+
+.work-section-text {
+  display: flex;
+  margin: 0 auto;
+  font-size: 2rem;
+  text-align: left;
+  width: 60rem;
+}
+
+.work-section-box {
+  display: flex;
+  margin: 0 auto;
+  width: 10rem;
+}
+
+.link-box {
+  display: flex;
+  justify-content: space-evenly;
+  width: 90%;
+}
+
+.about-font-size {
+  font-size: 2rem;
+}
+
+.about-me-text {
+  width: 80rem;
+  padding-right: 8rem;
 }
